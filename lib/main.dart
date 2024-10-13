@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8.0),
                   child: const Text(
-                    'Wisata Gunung di Batu',
+                    'Wisata Umbul Tanaka Waterfall',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
                 ),
                 // Teks kedua dengan warna abu-abu
                 const Text(
-                  'Batu, Malang, Indonesia',
+                  'Wonosari, Kabupaten Malang, Jawa Timur, Indonesia',
                   style: TextStyle(
                     color: Colors.grey,
                   ),
@@ -83,6 +83,19 @@ class MyApp extends StatelessWidget {
       ],
     );
 
+    Widget textSection = Container(
+      padding: const EdgeInsets.all(32), // Padding di semua sisi
+      child: const Text(
+        'Wisata Umbul Tanaka menawarkan keindahan alam berupa water park yang menggunakan konsep Jepang. '
+        'Konsep ini bisa dilihat dari banyaknya bentuk jembatan, meja & kursi, tulisan kanji di berbagai sudut, hingga dekorasi bunga sakura yang terlihat nyata. '
+        'Fakta unik penamaan serta konsep ala jepang bukan sekedar mengikuti tren saja, namun ada sejarah dusun Arjomulyo yang diangkat kembali. '
+        '\n '
+        '\n '
+        'Yunika Puteri Dwi Antika (2241760048). ',
+        softWrap: true,
+      ),
+    );
+
     return MaterialApp(
       title: 'Flutter layout: Yunika Puteri Dwi Antika (2241760048)',
       home: Scaffold(
@@ -93,7 +106,8 @@ class MyApp extends StatelessWidget {
         body: Column(
           children: [
             titleSection, // Menampilkan titleSection
-            buttonSection, // Menambahkan buttonSection
+            buttonSection, // Menampilkan buttonSection
+            textSection, // Menampilkan textSection
             const Center(
               child: Text('Hello World'),
             ),

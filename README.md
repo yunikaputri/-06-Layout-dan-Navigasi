@@ -7,3 +7,6 @@ A new Flutter project.
 
 # Praktikum 2: Implementasi button row
 ![Screenshot layout_flutter](assets/praktikum2.png)
+
+# Praktikum 3: Implementasi text section
+![Screenshot layout_flutter](assets/praktikum3.png)
