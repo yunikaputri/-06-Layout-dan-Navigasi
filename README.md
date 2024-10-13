@@ -6,4 +6,4 @@ A new Flutter project.
 ![Screenshot layout_flutter](assets/praktikum1.png)
 
 # Praktikum 2: Implementasi button row
-![Screenshot layout_flutter](assets/praktikum1.png)
+![Screenshot layout_flutter](assets/praktikum2.png)
