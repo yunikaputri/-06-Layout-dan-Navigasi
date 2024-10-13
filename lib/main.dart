@@ -102,9 +102,16 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Flutter layout demo'),
         ),
-        // Mengganti body 'Hello World' dengan titleSection dan buttonSection
-        body: Column(
+        // body: Column(
+        body: ListView(
           children: [
+            Image.asset(
+              //Menampilkan Gambar
+              'assets/wisata_umbul_tanaka.png',
+              width: 600,
+              height: 240,
+              fit: BoxFit.cover,
+            ),
             titleSection, // Menampilkan titleSection
             buttonSection, // Menampilkan buttonSection
             textSection, // Menampilkan textSection
